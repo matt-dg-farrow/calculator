@@ -1,9 +1,9 @@
 
-.settings
+.settings/
 
-.vscode
+.vscode/
 
-target/
+/target/
 
 .classpath
 
