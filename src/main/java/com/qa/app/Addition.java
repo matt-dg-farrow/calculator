@@ -1,17 +1,16 @@
-package com.qa.app;
+package main.java.com.qa.app;
 
 public class Addition implements Operations {
 
-    public String calculate(int number1, int number2) {
-        
-        int answer;
+	@Override
+	public String calculate(int number1, int number2) {
 
-        answer = number1 + number2;
-        
-        return number1 + " + " + number2 + " = " + answer;
+		int answer;
 
+		answer = number1 + number2;
 
-    }
+		return number1 + " + " + number2 + " = " + answer;
 
-    
+	}
+
 }
