@@ -1,4 +1,4 @@
-package com.qa.app;
+package main.java.com.qa.app;
 
 public class Main {
 
