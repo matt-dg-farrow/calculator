@@ -2,13 +2,13 @@ package com.qa.app;
 
 public class Addition implements Operations {
 
-    public int calculate(int number1, int number2) {
+    public String calculate(int number1, int number2) {
         
-        int z;
+        int answer;
 
-        z = number1 + number2;
+        answer = number1 + number2;
         
-        return z;
+        return number1 + " + " + number2 + " = " + answer;
 
 
     }

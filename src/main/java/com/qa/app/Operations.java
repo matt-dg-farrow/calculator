@@ -3,5 +3,5 @@ package com.qa.app;
 
 public interface Operations {
 
-	int calculate(int number1, int number2);
+	String calculate(int number1, int number2);
 }
