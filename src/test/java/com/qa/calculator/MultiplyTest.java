@@ -10,9 +10,9 @@ public class MultiplyTest {
 
 	@Test
 	public void test() {
-		Calculator calc = new Calculator();
+		Multiplication multiply = new Multiplication();
 		String result = "The result is 4";
-		Assert.assertEquals(result, calc.multiply(2, 2));
+		Assert.assertEquals(result, multiply.calculate(2, 2));
 	}
 
 }
