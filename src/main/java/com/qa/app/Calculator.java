@@ -14,6 +14,6 @@ public abstract class Calculator {
 
 		public void divide();
 
-		public void exp();
+		public void exponent();
 	}
 }
